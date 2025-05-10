@@ -11,10 +11,14 @@
             "id": "586a1b34bab2fd52",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Templates/Template.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Template"
             }
           }
         ]
@@ -146,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Outline of 첫 메모"
             }
+          },
+          {
+            "id": "929aa180fd35c51e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,17 +175,33 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "586a1b34bab2fd52",
+  "active": "23a6f7fceccea430",
   "lastOpenFiles": [
     "Welcome.md",
-    "2025-05-10.md",
-    "Untitled.canvas",
-    "옵시디언/옵시디언.md",
+    "첫 메모.md",
     "Untitled 1.canvas",
-    "옵시디언",
-    "첫 메모.md"
+    "Untitled.canvas",
+    "Templates/Template.md",
+    "Docs/LLVM 컴파일러.md",
+    "Docs/Swift.md",
+    "Docs/Swift Standard Library.md",
+    "Docs/데이터 모델링 (Data Modeling).md",
+    "Docs/병렬 처리(Swift-Concurrency).md",
+    "Docs/열거형 (Enumeration).md",
+    "Templates",
+    "README.md",
+    "Docs/프로토콜 지향 프로그래밍 (POP).md",
+    "Docs/클로저 (Closure).md",
+    "Docs/제네릭 (Generic).md",
+    "Docs/정규식 DSL.md",
+    "Docs/옵셔널(Optionals).md",
+    "Docs",
+    "2025-05-10.md",
+    "옵시디언/옵시디언.md",
+    "옵시디언"
   ]
 }

@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"4352f7a1c634e083","x":0,"y":0,"width":400,"height":400,"type":"file","file":"옵시디언/옵시디언.md"},
+		{"id":"643d435066d33d6e","x":-200,"y":-80,"width":250,"height":60,"type":"text","text":"옵시디언\n"}
+	],
+	"edges":[]
+}

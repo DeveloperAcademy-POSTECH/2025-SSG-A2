@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "42eaa7a6ca860bbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6c03d388d51a1b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "586a1b34bab2fd52",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "68c5099ef41a9c5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce593578c9128962",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23a6f7fceccea430",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d4012a825ff61b8a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e45a0a4a53f3ef38",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "96a1f7055ca490f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "681603351cb58243",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1612973a0cb7d4dc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "첫 메모.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 첫 메모"
+            }
+          },
+          {
+            "id": "0e7cdf71fdfeddec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "첫 메모.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 첫 메모"
+            }
+          },
+          {
+            "id": "b2e01cfdc7e30da5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "caad74805042501a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "첫 메모.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 첫 메모"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "586a1b34bab2fd52",
+  "lastOpenFiles": [
+    "Welcome.md",
+    "2025-05-10.md",
+    "Untitled.canvas",
+    "옵시디언/옵시디언.md",
+    "Untitled 1.canvas",
+    "옵시디언",
+    "첫 메모.md"
+  ]
+}

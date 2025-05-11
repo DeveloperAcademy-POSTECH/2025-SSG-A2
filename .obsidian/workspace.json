@@ -25,10 +25,14 @@
             "id": "69933d4f28e3b9bb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "Templates/try.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "try"
             }
           }
         ],
@@ -105,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Templates/try.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "try 의 백링크"
             }
           },
           {
@@ -123,11 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Templates/try.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "try 의 나가는 링크"
             }
           },
           {
@@ -151,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Templates/try.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "개요"
+              "title": "try 의 개요"
             }
           },
           {
@@ -187,7 +194,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "23a6f7fceccea430",
+  "active": "69933d4f28e3b9bb",
   "lastOpenFiles": [
     "2025-05-11.md",
     "README.md",

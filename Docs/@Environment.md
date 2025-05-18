@@ -16,7 +16,18 @@
 
 ## 주요 기능
 
-1. `EnvironmentValues`는 key path를 사용하여 값을 가져올 수 있다.
+1. `EnvironmentValues`를 key path로 사용하여 값을 가져올 수 있다.
+	- 자주 사용하는 `EnvironmentValues`
+		- `\.colorScheme`: 현재 뷰의 다크 모드 여부
+		- `\.dismiss`: 현재 화면을 닫는 액션
+		- `\.presentationMode`: 현재 화면의 프레젠테이션 상태 (isPresented 등 확인용, iOS 16 이하에서 사용)
+		- `\.horizontalSizeClass`: 가로 방향 사이즈 클래스 (.compact, .regular)
+		- `\.verticalSizeClass`: 세로 방향 사이즈 클래스
+		- `\.locale`: 현재 설정된 언어 및 지역
+		- `\.openURL`: 외부 URL을 여는 액션
+		- `\.isEnabled`: 현재 뷰 컨트롤이 활성화되어 있는지 여부
+		- `\.accessibilityEnabled`: 접근성 기능(VoiceOver 등)이 활성화되어 있는지 여부
+		- `\.undoManager`: 현재 뷰에서 사용할 수 있는 Undo/Redo 관리자
 
 ```Swift
 @Environment(\.colorScheme) var colorScheme: ColorScheme
@@ -154,5 +165,5 @@ struct EnvironmentSubView: View {
 
 ## References
 
-- [Environment | Apple Developer Document](https://developer.apple.com/documentation/swiftui/environment)
+- [Environment | Apple Developer Document](https://developer.apple.com/documentation/swiftui/environment)
 - [SwiftUI : @Environment 프로퍼티 래퍼 - 서근 개발노트](https://seons-dev.tistory.com/entry/SwiftUI-Environment-프로퍼티-래퍼)

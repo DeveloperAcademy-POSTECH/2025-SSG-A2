@@ -179,6 +179,5 @@ class Robot: Worable {
 + Extension
 
 ## References
-- https://velog.io/@ellyheetov/Protocol-Oriented-Programming
-- 루미 멘토님의 좋은 코드 만들기
-![[Lumi_좋은_코드_만들기.pdf]]
+- [블로그](https://velog.io/@ellyheetov/Protocol-Oriented-Programming)
+- [루미님의 좋은 코드 만들기]![[Lumi_좋은_코드_만들기.pdf]]

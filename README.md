@@ -1,4 +1,4 @@
-# 🌱 Swift Universe - Team1
+# 🌱 Swift Universe - Team A2
 
 Swift Study Group에 오신 것을 환영합니다! 🤗
 이 저장소는 Swift 언어를 탐구하고 깊이 있는 학습을 진행하기 위한 공간입니다. 
@@ -8,11 +8,12 @@ Obsidian을 활용하여 학습한 내용을 Markdown 노트로 기록하고, Gi
 <img width="1300" alt="image" src="https://github.com/user-attachments/assets/ee53a167-bd0a-4656-822b-a3548ac28a9d" />
 
 ### 👥 Team Member
-+ @luminouxx
-+ @luminouxx
-+ @luminouxx
-+ @luminouxx
-+ @luminouxx
++ @miru3930
++ @bongjooncha
++ @Segyun
++ @h22jun
++ @nakisara01
++ @UnkyungJo
 
 - 그룹장은 매주 돌아가며 변경될 수 있으며, 새로운 주차마다 학습 주제를 지정할 수 있습니다.
 - 팀원들은 PR을 통해 학습 내용을 공유하고, 서로의 노트를 리뷰하며 피드백을 제공할 수 있습니다.
@@ -49,6 +50,8 @@ cd SSG-Team1.git
 - **모든 팀원이 리뷰를 완료한 후에만 PR을 머지할 수 있습니다.**
 - **Markdown 파일은 `/docs` 폴더에 추가합니다**
 - **Obsidian에서 노트는 서로 링크로 연결하여 지식 네트워크를 구성할 수 있습니다.**
+- **매주 Reflection을 진행합니다.(C5, 월요일 10:30)**
+- **지각비가 있습니다. (지각시 3,000원, 결석시 6,000원)**
 
 ## ✨ 활동 목표
 - Curiosity에서 시작된 나의 Swift 언어에 대한 궁금점을 정복한다.

@@ -38,4 +38,12 @@ Temporary Items
 # config dir
 .obsidian/
 
+# Xcode
+DerivedData/
+build/
+*.xcworkspace
+xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,obsidian

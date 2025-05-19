@@ -1,6 +1,5 @@
 >[!question]
->GQ1. GQ를 쓰세요
->GQ2. GQ를 쓰세요
+>GQ1. NavigationStack은 무엇인가?
 
 ## Description
 - 개요와 설명을 작성
@@ -12,7 +11,9 @@
 + 실제 코드 예시를 작성
 
 ## Keywords
-+ 파생된 키워드들을 작성
++ [View]
++ [[Navigation]]
+
 
 ## References
-- 참고한 레퍼런스를 작성 (예 : Apple의 공식 문서)
+- [Apple 공식문서](https://developer.apple.com/documentation/swiftui/navigationstack/)

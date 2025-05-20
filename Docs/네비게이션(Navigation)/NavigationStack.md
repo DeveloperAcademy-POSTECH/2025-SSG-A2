@@ -2,7 +2,7 @@
 >GQ1. NavigationStack은 무엇인가?
 
 ## Description
-- 개요와 설명을 작성
+- root View를 표기하고 그 위에 추가 View를 제공하는 View
 
 ## 주요 기능
 + 실제 활용을 작성
@@ -11,7 +11,7 @@
 + 실제 코드 예시를 작성
 
 ## Keywords
-+ [View]
++ [[View]]
 + [[Navigation]]
 
 

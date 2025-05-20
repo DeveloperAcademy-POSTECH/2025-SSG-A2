@@ -81,8 +81,9 @@ NavigationView {
 ```
 
 ## Keywords
-+ [View]
++ [[View]]
 + [[Navigation]]
++ [[NavigationStack]]
 
 ## References
 - GPT

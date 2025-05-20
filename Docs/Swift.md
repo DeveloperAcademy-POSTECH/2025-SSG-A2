@@ -45,18 +45,14 @@ print(interestingNumbers["primes"]!)
 ```
 
 ## Keywords
-+ [[옵셔널(Optionals)]]
-+ [[LLVM 컴파일러]]
-+ [[클로저 (Closure)]]
-+ [[프로토콜 지향 프로그래밍 (POP)]]
-+ [[제네릭 (Generic)]]
-+ [[열거형 (Enumeration)]]
 + [[Swift Standard Library]]
-+ [[병렬 처리(Swift-Concurrency)]]
-+ [[정규식 DSL]]
-+ [[데이터 모델링 (Data Modeling)]]
-+ [[@Environment]]
++ [[프로토콜 지향 프로그래밍 (POP)]]
++ [[Class]]
++ [[Struct]]
++ [[Enumeration]]
++ [[Navigation]]
 + [[속성 래퍼 (Property Wrapper)]]
++ [[@Environment]]
 
 ## References
 - [Apple 공식 Swift 문서](https://developer.apple.com/documentation/swift)

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/프로토콜과 인터페이스의 차이점.md",
+                "file": "Docs/Extension.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "프로토콜과 인터페이스의 차이점"
+              "title": "Extension"
             }
           }
         ]
@@ -182,9 +182,10 @@
   "active": "4317a370e882d5cc",
   "lastOpenFiles": [
     "Docs/프로토콜 지향 프로그래밍 (POP).md",
+    "Docs/Extension.md",
     "Docs/프로토콜과 인터페이스의 차이점.md",
-    "Docs/@Environment.md",
     "Templates/Template.md",
+    "Docs/@Environment.md",
     "Docs/Class.md",
     "Docs/속성 래퍼 (Property Wrapper).md",
     "Value Type & Reference Type.md",
@@ -217,7 +218,6 @@
     "Docs/데이터 모델링 (Data Modeling).md",
     "Docs/LLVM 컴파일러.md",
     "README.md",
-    "Docs/Swift Standard Library.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

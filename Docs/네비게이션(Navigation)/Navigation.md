@@ -9,7 +9,7 @@
 	[NavigationBarItem], [SidebarRowSize], [TabView], [Tab], [TabRole], [TabSection],
 	[HSplitView], [VSplitView],  
 	
-	[[NavigationView]](Deprecated), [NavigationViewStyle] (Deprecated)
+	[[NavigationView]] (Deprecated), [NavigationViewStyle] (Deprecated)
 	등이 있다.
 
 ## 주요 기능

@@ -80,4 +80,4 @@ struct NavigationExampleView: View {
 
 #Preview {
     NavigationExampleView()
-}
+} 

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/네비게이션(Navigation)/NavigationView.md",
+                "file": "Docs/네비게이션(Navigation)/NavigationPath.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NavigationView"
+              "title": "NavigationPath"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,25 +198,25 @@
       "obsidian-git:Open Git source control": true
     }
   },
-  "active": "12aab69b0650a2eb",
+  "active": "4f823404096bb2f0",
   "lastOpenFiles": [
+    "Docs/네비게이션(Navigation)/NavigationView.md",
+    "Docs/네비게이션(Navigation)/NavigationStack.md",
+    "Docs/네비게이션(Navigation)/Navigation.md",
+    "Docs/네비게이션(Navigation)/NavigationPath.md",
+    "Docs/네비게이션(Navigation)/NavigationLink.md",
+    "Docs/View.md",
+    "Docs/@Environment.md",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigation~.swift",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationStack.swift",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigation.swift",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationView.swift",
-    "Docs/네비게이션(Navigation)/Navigation.md",
-    "Docs/네비게이션(Navigation)/NavigationStack.md",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ex~.swift",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ex.swift",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ex.sift",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ViewDiscription.txt",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationExample.swift",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherExampleView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/NavigationExample.swift",
-    "Docs/네비게이션(Navigation)/NavigationView.md",
-    "Docs/네비게이션(Navigation)/NavigationLink.md",
-    "Docs/네비게이션(Navigation)/NavigationPath.md",
-    "Docs/View.md",
     "Docs/속성 래퍼 (Property Wrapper).md",
     "Docs/Class.md",
     "Docs/프로토콜 지향 프로그래밍 (POP).md",
@@ -226,7 +226,6 @@
     "2025-05-11.md",
     "Docs/Swift.md",
     "NavigationSplitView.md",
-    "Docs/@Environment.md",
     "Docs/네비게이션(Navigation)/img/NavigationViewImg.png",
     "Docs/Value Type.md",
     "Docs/Struct.md",

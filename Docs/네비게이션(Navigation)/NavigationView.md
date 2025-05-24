@@ -5,13 +5,14 @@
 
 ![[NavigationViewImg.png]]
 ## Description
-- NavigationView는 iOS 13.0부터 도입된 SwiftUI의 기본적인 네비게이션 구조를 제공하는 뷰이다. 다만 16부터는 NavigationStack을 사용하기를 권장하고 있다. 
+- NavigationView는 iOS 13.0부터 도입된 SwiftUI의 기본적인 네비게이션 구조를 제공하는 뷰이다. 다만 16부터는 NavigationStack을 사용하기를 권장하고 있음. 
 - [Navigation Migration 공식 문서](https://developer.apple.com/documentation/swiftui/migrating-to-new-navigation-types)의 내용에 따르면 NavigationView는 단일 구조로 단일 컬럼, 다중 컬럼을 모두 처리하려 했기에 복잡했고 일관성이 부족했다. 
 		- 단일 구조: 화면을 구성하는 뷰 계층 구조가 한 컨테이너 안에 다 들어있는 형태
 		- 단일 컬럼: 한번에 하나의 뷰만 보이는 구조
 		- 다중 컬럼: 한 화면에 여러 컬럼으로 나눠 동시에 여러 구조를 보여 주는 구조(Mac, IPad 등)
 	- NavigationStack -> 스택 기반 탐색(push/pop)
 	- NavigationSplitView -> 다중 컬럼 탐색
+- NavigationView는 Stack을 통제할 수 없어 복잡한 이동 흐름을 구현할때 UIKit을 사용해야 했음.
 
 
 ## 주요 기능

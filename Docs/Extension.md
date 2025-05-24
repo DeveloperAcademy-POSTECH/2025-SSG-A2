@@ -85,13 +85,15 @@ print("A marathon is \(aMarathon) meters long") // Prints "A marathon is 42195.0
 			self.init(origin: Point(x: originX, y: originY), size: size) 
 		} 
 	}
+	let defaultRect = Rect() 
+	let memberwiseRect = Rect(origin: Point(x: 2.0, y: 2.0), size: Size(width: 5.0, height: 5.0))
 	
 	let centerRect = Rect(center: Point(x: 4.0, y: 4.0), 
 		size: Size(width: 3.0, height: 3.0)) 
 	// centerRect's origin is (2.5, 2.5) and its size is (3.0, 3.0)
 	```
-	기존에는 Rect를 만들려면 origin(시작점)을 직접 줘야 했다.
-	하지만 extension을 써서 만든건 center를 기준으로 Rect를 만들 수 있다.
+	기존에는 Rect를 만들려면 origin(시작점)을 기준으로 만들어야 한다.
+	하지만 extension을 써서 만들면 center를 기준으로 Rect를 만들 수 있다.
 
 - 메서드
 ```swift

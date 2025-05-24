@@ -64,7 +64,6 @@ let aMarathon = 42.km + 195.m
 print("A marathon is \(aMarathon) meters long") // Prints "A marathon is 42195.0 meters long"
 ```
 - 이니셜라이저
-	- extension 안 쓴 코드
 	```swift
 	struct Size {
 		var width = 0.0, height = 0.0
@@ -77,17 +76,6 @@ print("A marathon is \(aMarathon) meters long") // Prints "A marathon is 42195.0
 	struct Rect {
 		var origin = Point()
 		var size = Size()
-	}
-	
-	```
-	- extension 쓴 코드
-```swift
-	struct Size { 
-		var width = 0.0, height = 0.0 
-	} 
-	
-	struct Point { 
-		var x = 0.0, y = 0.0 
 	}
 	
 	extension Rect { 
@@ -103,7 +91,7 @@ print("A marathon is \(aMarathon) meters long") // Prints "A marathon is 42195.0
 	// centerRect's origin is (2.5, 2.5) and its size is (3.0, 3.0)
 	```
 	기존에는 Rect를 만들려면 origin(시작점)을 직접 줘야 했다.
-	하지만 extension을 써서 만든건 center를 기준으로 Rect를 만들어준다.
+	하지만 extension을 써서 만든건 center를 기준으로 Rect를 만들 수 있다.
 
 - 메서드
 ```swift

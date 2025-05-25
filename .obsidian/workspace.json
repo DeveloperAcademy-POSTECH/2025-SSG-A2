@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "42eaa7a6ca860bbd",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed88f3f15576f6b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4317a370e882d5cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/프로토콜 지향 프로그래밍 (POP).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "프로토콜 지향 프로그래밍 (POP)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "68c5099ef41a9c5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce593578c9128962",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23a6f7fceccea430",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "d4012a825ff61b8a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "e45a0a4a53f3ef38",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "96a1f7055ca490f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "681603351cb58243",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1612973a0cb7d4dc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Templates/try.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "try 의 백링크"
+            }
+          },
+          {
+            "id": "0e7cdf71fdfeddec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Templates/try.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "try 의 나가는 링크"
+            }
+          },
+          {
+            "id": "b2e01cfdc7e30da5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "caad74805042501a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Templates/try.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "try 의 개요"
+            }
+          },
+          {
+            "id": "929aa180fd35c51e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "4317a370e882d5cc",
+  "lastOpenFiles": [
+    "Docs/클로저 (Closure).md",
+    "Docs/제네릭 (Generic).md",
+    "Docs/정규식 DSL.md",
+    "Docs/옵셔널(Optionals).md",
+    "Docs/열거형 (Enumeration).md",
+    "Docs/병렬 처리(Swift-Concurrency).md",
+    "Docs/데이터 모델링 (Data Modeling).md",
+    "Docs/LLVM 컴파일러.md",
+    "Value Type & Reference Type.md",
+    "Docs/속성 래퍼 (Property Wrapper).md",
+    "Docs/Value Type.md",
+    "Docs/Struct.md",
+    "Docs/Enumeration.md",
+    "Docs/Class.md",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Preview Content/Preview Assets.xcassets/Contents.json",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Assets.xcassets/AccentColor.colorset/Contents.json",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/Week1AnnotationView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/EnumerationView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Preview Content/Preview Assets.xcassets",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Assets.xcassets/Contents.json",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Assets.xcassets/AppIcon.appiconset",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Assets.xcassets/AccentColor.colorset",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.pbxproj",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Enumeration.md",
+    "README.md",
+    "Docs/프로토콜 지향 프로그래밍 (POP).md",
+    "Docs/Swift Standard Library.md",
+    "Templates/Template.md",
+    "Templates/try.md",
+    "Templates/test.md",
+    "Docs/Swift.md",
+    "2025-05-11.md",
+    "Welcome.md",
+    "첫 메모.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "2025-05-10.md"
+  ]
+}

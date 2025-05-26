@@ -178,11 +178,11 @@ struct ParentView: View {
 ```
 ## Keywords
 
-- Model
-- View
-- ViewModel
-- Property Wrapper
-- Architectural Patterns
+- [[Model]]
+- [[View]]
+- [[ViewModel]]
+- [[Property Wrapper]]
+- [[Architectural Patterns]]
 
 ## References
 

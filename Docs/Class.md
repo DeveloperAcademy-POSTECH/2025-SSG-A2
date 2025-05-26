@@ -2,7 +2,7 @@
 >GQ1. Class는 뭐지?
 
 ## Description
-### Struct의 정의
+### Class의 정의
 Class는 User-defined Data Type 중 하나를 일컫는다.
 Reference Type이다. Value Type과 구별된다.
 Class는 Struct와 달리 무조건 init을 만들어 써야한다. 이는 class가 inheritance가 가능하고, 초기화 과정이 더 복잡하고 엄격하기 때문이다.

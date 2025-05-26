@@ -26,7 +26,7 @@ extension SomeType: SomeProtocol, AnotherProtocol {
 }
 ```
 
-## 주요 기능
+## 코드 예시
 + 나의 C2 코드 일부
 ```swift
 extension Color {
@@ -42,7 +42,7 @@ extension Color {
  // 상위 네비게이션바 색깔 지정
 ```
 
-## 코드 예시
+## 주요 기능
 + 연산 타입 프로퍼티
 ```swift
 extension Double { 

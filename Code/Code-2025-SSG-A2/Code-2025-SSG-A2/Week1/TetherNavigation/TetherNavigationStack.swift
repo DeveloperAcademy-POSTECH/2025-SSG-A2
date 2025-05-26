@@ -90,13 +90,6 @@ struct StackFirstScreenView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
             
-            Button("저장") {
-                // 저장 효과를 시각적으로 표현
-                let impactMed = UIImpactFeedbackGenerator(style: .medium)
-                impactMed.impactOccurred()
-            }
-            .buttonStyle(.borderedProminent)
-            
             NavigationLink("2번 화면으로 이동", value: ScreenData(id: 2, text: ""))
             
             Text("입력된 텍스트는 자동으로 저장됩니다")
@@ -121,11 +114,6 @@ struct StackSecondScreenView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
             
-            Button("저장") {
-                // 저장 효과를 시각적으로 표현
-                let impactMed = UIImpactFeedbackGenerator(style: .medium)
-                impactMed.impactOccurred()
-            }
             .buttonStyle(.borderedProminent)
             
             NavigationLink("3번 화면으로 이동", value: ScreenData(id: 3, text: ""))
@@ -153,12 +141,6 @@ struct StackThirdScreenView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
             
-            Button("저장") {
-                // 저장 효과를 시각적으로 표현
-                let impactMed = UIImpactFeedbackGenerator(style: .medium)
-                impactMed.impactOccurred()
-            }
-            .buttonStyle(.borderedProminent)
             
             Button("한 단계 뒤로 가기") {
                 dismiss()
@@ -176,12 +158,13 @@ struct StackThirdScreenView: View {
                 path = NavigationPath()
             }
             .buttonStyle(.borderedProminent)
-            
-            Text("모든 화면의 입력값이 저장됩니다 ✅")
-                .foregroundColor(.green)
-                .padding()
         }
         .padding()
         .navigationTitle("3번 화면")
     }
+}
+
+
+#Preview {
+    TetherNavigationStack()
 }

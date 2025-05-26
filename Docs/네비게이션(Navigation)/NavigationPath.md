@@ -66,7 +66,7 @@ struct FruitDetailView: View {
 ```
 
 ## Keywords
-+ [[NavigationPath]]
++ [[NavigationStack]]
 + [@State]
 
 ## References

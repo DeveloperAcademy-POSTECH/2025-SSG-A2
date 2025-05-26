@@ -25,6 +25,7 @@ NavigationStack {
 ```
 
 ## Keywords
+- [[Navigation]]
 + [UIComponent]
 
 ## References

@@ -1,54 +1,83 @@
 {
   "main": {
-    "id": "42eaa7a6ca860bbd",
+    "id": "c3d3f16d400db3e7",
     "type": "split",
     "children": [
       {
-        "id": "ed88f3f15576f6b2",
+        "id": "2f65e8b18a9d2c0b",
         "type": "tabs",
         "children": [
           {
-            "id": "4317a370e882d5cc",
+            "id": "546d2eb7589db2db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Extension.md",
+                "file": "Docs/Class.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Extension"
+              "title": "Class"
+            }
+          },
+          {
+            "id": "4f823404096bb2f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/네비게이션(Navigation)/NavigationLink.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NavigationLink"
+            }
+          },
+          {
+            "id": "12aab69b0650a2eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docs/네비게이션(Navigation)/NavigationLink.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NavigationLink"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "68c5099ef41a9c5b",
+    "id": "2dec2c0138c20b21",
     "type": "split",
     "children": [
       {
-        "id": "ce593578c9128962",
+        "id": "927ba43e53908967",
         "type": "tabs",
         "children": [
           {
-            "id": "23a6f7fceccea430",
+            "id": "2815668dfa8fbe87",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
             }
           },
           {
-            "id": "d4012a825ff61b8a",
+            "id": "c17fc565e4f47fcd",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +94,7 @@
             }
           },
           {
-            "id": "e45a0a4a53f3ef38",
+            "id": "458246d896ad2786",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +110,20 @@
     "width": 300
   },
   "right": {
-    "id": "96a1f7055ca490f8",
+    "id": "560a92d512dd20bd",
     "type": "split",
     "children": [
       {
-        "id": "681603351cb58243",
+        "id": "87fd6242090d1620",
         "type": "tabs",
         "children": [
           {
-            "id": "1612973a0cb7d4dc",
+            "id": "cf13f8285f39bea2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/try.md",
+                "file": "Docs/네비게이션(Navigation)/NavigationView.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +133,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "try 의 백링크"
+              "title": "NavigationView 의 백링크"
             }
           },
           {
-            "id": "0e7cdf71fdfeddec",
+            "id": "d1206e21bd07d78d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/try.md",
+                "file": "Docs/네비게이션(Navigation)/NavigationView.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "try 의 나가는 링크"
+              "title": "NavigationView 의 나가는 링크"
             }
           },
           {
-            "id": "b2e01cfdc7e30da5",
+            "id": "8888e0c9b2438a8c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,36 +166,26 @@
             }
           },
           {
-            "id": "caad74805042501a",
+            "id": "c07d6b57f9937844",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/try.md",
+                "file": "Docs/네비게이션(Navigation)/NavigationView.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "try 의 개요"
-            }
-          },
-          {
-            "id": "929aa180fd35c51e",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "NavigationView 의 개요"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,49 +195,46 @@
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": true
     }
   },
-  "active": "4317a370e882d5cc",
+  "active": "4f823404096bb2f0",
   "lastOpenFiles": [
-    "Docs/프로토콜과 인터페이스의 차이점.md",
-    "Docs/프로토콜 지향 프로그래밍 (POP).md",
-    "Docs/Extension.md",
-    "Templates/Template.md",
-    "Docs/@Environment.md",
-    "Docs/Class.md",
-    "Docs/속성 래퍼 (Property Wrapper).md",
-    "Value Type & Reference Type.md",
-    "NavigationExample.swift",
-    "Docs/네비게이션(Navigation)/img/NavigationViewImg.png",
-    "Docs/네비게이션(Navigation)/img",
-    "Docs/네비게이션(Navigation)/NavigationView.md",
-    "Docs/네비게이션(Navigation)/NavigationStack.md",
     "Docs/네비게이션(Navigation)/NavigationPath.md",
-    "Docs/네비게이션(Navigation)/NavigationLink.md",
+    "Docs/네비게이션(Navigation)/NavigationStack.md",
     "Docs/네비게이션(Navigation)/Navigation.md",
-    "Docs/네비게이션(Navigation)",
+    "Docs/네비게이션(Navigation)/NavigationView.md",
+    "Docs/네비게이션(Navigation)/NavigationLink.md",
+    "Docs/View.md",
+    "Docs/@Environment.md",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigation~.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationStack.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigation.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ex~.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ex.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ex.sift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ViewDiscription.txt",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationExample.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherExampleView.swift",
+    "Docs/속성 래퍼 (Property Wrapper).md",
+    "Docs/Class.md",
+    "Docs/프로토콜 지향 프로그래밍 (POP).md",
+    "Value Type & Reference Type.md",
+    "Templates/try.md",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Enumeration.md",
+    "2025-05-11.md",
+    "Docs/Swift.md",
+    "NavigationSplitView.md",
+    "Docs/네비게이션(Navigation)/img/NavigationViewImg.png",
     "Docs/Value Type.md",
     "Docs/Struct.md",
     "Docs/Enumeration.md",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/Tether_Navigation/NavigationExample.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/Tether_Navigation/ExampleView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Preview Content/Preview Assets.xcassets/Contents.json",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Assets.xcassets/AppIcon.appiconset/Contents.json",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Assets.xcassets/AccentColor.colorset/Contents.json",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/Week1EnvironmentView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/Week1AnnotationView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Enumeration.md",
     "Docs/클로저 (Closure).md",
     "Docs/제네릭 (Generic).md",
     "Docs/정규식 DSL.md",
     "Docs/옵셔널(Optionals).md",
     "Docs/열거형 (Enumeration).md",
-    "Docs/병렬 처리(Swift-Concurrency).md",
-    "Docs/데이터 모델링 (Data Modeling).md",
-    "Docs/LLVM 컴파일러.md",
-    "README.md",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
+    "Docs/병렬 처리(Swift-Concurrency).md"
   ]
 }

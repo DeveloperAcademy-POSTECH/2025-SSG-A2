@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,obsidian
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,obsidian
 
+### Code ###
+workspace.json
+
 ### macOS ###
 # General
 .DS_Store

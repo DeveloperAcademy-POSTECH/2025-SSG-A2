@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Week2MiruTodoView: View { // View
-    @StateObject var viewModel = Week2MiruTodoViewModel()
+    var viewModel = Week2MiruTodoViewModel()
     @State private var newTodoTitle = ""
 
     var body: some View {
@@ -52,6 +52,7 @@ struct Week2MiruTodo: Identifiable { // Model
 
 class Week2MiruTodoViewModel: ObservableObject { // ViewModel
     @Published var todos: [Week2MiruTodo] = []
+    var todos: [Week2MiruTodo] = []
     
     func add(title: String) {
         let todo = Week2MiruTodo(title: title, isDone: false)

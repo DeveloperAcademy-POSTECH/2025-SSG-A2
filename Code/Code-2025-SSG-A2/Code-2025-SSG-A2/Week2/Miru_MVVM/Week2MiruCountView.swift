@@ -18,6 +18,7 @@ extension Week2MiruCountView {
 struct Week2MiruCountView: View {
     @Binding var parentCount: Int
     @ObservedObject var viewModel = ViewModel()
+//    @ObservedObject var viewModel = ViewModel()
 //    @StateObject var viewModel = ViewModel()
     
     var body: some View {

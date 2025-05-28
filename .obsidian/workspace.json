@@ -30,11 +30,8 @@
               "state": {
                 "aFile": ".obsidian/workspace.json",
                 "bFile": ".obsidian/workspace.json",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+                "aFile": "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.pbxproj",
+                "bFile": "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.pbxproj",
             }
           }
         ],
@@ -222,6 +219,18 @@
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationView.swift",
     "Docs/MVVM.md",
     "Docs/Class.md",
+    "Docs/MVVM.md",
+    "Docs/Class.md",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/Week2MiruTodoView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/Week2MiruCountView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/MiruCountView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/MiruTodoView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/MiruMVVMView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/Week1MVVMView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/MVVMView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/New Folder",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2",
     "Templates/Template.md",
     "Docs/속성 래퍼 (Property Wrapper).md",
     "Docs/네비게이션(Navigation)/img/NavigationViewImg.png",

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-extension Week2MiruCountView {
+extension MiruMVVMCountView {
     final class ViewModel: ObservableObject {
         @Published var count: Int = 0
         
@@ -15,7 +15,7 @@ extension Week2MiruCountView {
     }
 }
 
-struct Week2MiruCountView: View {
+struct MiruMVVMCountView: View {
     @Binding var parentCount: Int
     @ObservedObject var viewModel = ViewModel()
 //    @StateObject var viewModel = ViewModel()
@@ -43,7 +43,7 @@ struct Week2MiruCountView: View {
     }
 }
 
-struct Week2MiruParentView: View {
+struct MiruMVVMParentView: View {
     @State private var count: Int = 0
     
     var body: some View {
@@ -51,7 +51,7 @@ struct Week2MiruParentView: View {
             VStack {
                 Text("ParentView's count is \(count)")
                 NavigationLink {
-                    Week2MiruCountView(parentCount: $count)
+                    MiruMVVMCountView(parentCount: $count)
                 } label: {
                     Text("Navigate to CountView")
                 }
@@ -61,5 +61,5 @@ struct Week2MiruParentView: View {
 }
 
 #Preview {
-    Week2MiruParentView()
+    MiruMVVMParentView()
 }

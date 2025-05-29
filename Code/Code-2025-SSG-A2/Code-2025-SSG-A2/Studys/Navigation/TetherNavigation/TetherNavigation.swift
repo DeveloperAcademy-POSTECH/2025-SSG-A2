@@ -1,9 +1,8 @@
 import SwiftUI
 
 // 메인 뷰
-struct NavigationExampleView: View {
+struct TetherNavigationCompareView: View {
     var body: some View {
-        
         VStack {
             TetherNavigationView()
             TetherNavigationStack()
@@ -12,6 +11,6 @@ struct NavigationExampleView: View {
 }
 
 #Preview {
-    NavigationExampleView()
+    TetherNavigationCompareView()
 }
 

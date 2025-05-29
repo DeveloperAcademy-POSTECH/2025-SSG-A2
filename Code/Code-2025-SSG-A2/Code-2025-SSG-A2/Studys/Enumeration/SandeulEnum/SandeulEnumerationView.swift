@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct EnumerationView: View {
+struct SandeulEnumerationView: View {
     enum Day: String, CaseIterable {
         case monday = "힘내봐야지", tuesday = "할만한가?", wednesday = "으악", thursday = "하루만 더...", friday = "드디어 쉰다!", saturday = "내일도 쉰다!", sunday = "벌써 주말이 끝났네..."
     }
@@ -48,5 +48,5 @@ struct EnumerationView: View {
 }
 
 #Preview {
-    EnumerationView()
+    SandeulEnumerationView()
 }

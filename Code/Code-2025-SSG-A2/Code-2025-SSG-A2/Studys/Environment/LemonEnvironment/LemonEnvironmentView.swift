@@ -13,7 +13,7 @@ class Library {
     
 }
 
-struct EnvironmentView: View {
+struct LemonEnvironmentView: View {
     @State private var library = Library()
 
     // EnvironmentValues
@@ -28,13 +28,13 @@ struct EnvironmentView: View {
                 Text("Dark Mode")
                 
             }
-            EnvironmentSubView()
+            LemonEnvironmentSubView()
         }
         .environment(library)
     }
 }
 
-struct EnvironmentSubView: View {
+struct LemonEnvironmentSubView: View {
     // Custom Environment
     @Environment(Library.self) private var library
     
@@ -54,5 +54,5 @@ struct EnvironmentSubView: View {
 }
 
 #Preview {
-    EnvironmentView()
+    LemonEnvironmentView()
 }

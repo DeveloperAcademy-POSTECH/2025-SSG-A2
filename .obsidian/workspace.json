@@ -1,55 +1,37 @@
 {
   "main": {
-    "id": "42eaa7a6ca860bbd",
+    "id": "03bdba80c320491d",
     "type": "split",
     "children": [
       {
-        "id": "a6c03d388d51a1b8",
+        "id": "5cf332bbf0aeb9bf",
         "type": "tabs",
         "children": [
           {
-            "id": "69933d4f28e3b9bb",
+            "id": "c88bbc3b911926df",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/Tether_Navigation/ExampleView.swift",
-                "bFile": "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/Tether_Navigation/ExampleView.swift",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "b6ae5ea96a10372e",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aFile": "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.pbxproj",
-                "bFile": "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.pbxproj",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "68c5099ef41a9c5b",
+    "id": "6b17ad1c103459e8",
     "type": "split",
     "children": [
       {
-        "id": "ce593578c9128962",
+        "id": "b0bbeb09f48d770d",
         "type": "tabs",
         "children": [
           {
-            "id": "23a6f7fceccea430",
+            "id": "c5b4e1a88e76cba2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +44,7 @@
             }
           },
           {
-            "id": "d4012a825ff61b8a",
+            "id": "1942f57afdc7a23e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +61,7 @@
             }
           },
           {
-            "id": "e45a0a4a53f3ef38",
+            "id": "7b84ed44b6cb366a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -95,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "96a1f7055ca490f8",
+    "id": "96bad1d1e8b69bdf",
     "type": "split",
     "children": [
       {
-        "id": "681603351cb58243",
+        "id": "8580744ce1c53753",
         "type": "tabs",
         "children": [
           {
-            "id": "1612973a0cb7d4dc",
+            "id": "0f9e99a6db48fd1d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "첫 메모.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 첫 메모"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "0e7cdf71fdfeddec",
+            "id": "bd9551de56a20aeb",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "첫 메모.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 첫 메모"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "b2e01cfdc7e30da5",
+            "id": "eadc5a9e1bb6f55a",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -151,36 +131,25 @@
             }
           },
           {
-            "id": "caad74805042501a",
+            "id": "9849b88d5e3e7101",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
-            }
-          },
-          {
-            "id": "929aa180fd35c51e",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,59 +162,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b6ae5ea96a10372e",
-  "lastOpenFiles": [
-    "Lumi_좋은_코드_만들기.pdf",
-    "Docs/프로토콜과 인터페이스의 차이점.md",
-    "Docs/ViewModel/ViewModel.md",
-    "Docs/ViewModel/@Published.md",
-    "Docs/ViewModel",
-    "Docs/View.md",
-    "Docs/Extension.md",
-    "Docs/Concurrency/async-await.md",
-    "Docs/Concurrency/Task.md",
-    "Docs/Concurrency/Concurrency.md",
-    "Docs/Concurrency/Actor.md",
-    "Docs/Concurrency",
-    "Docs/API.md",
-    "Docs/API 설명 이미지.png",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/LemonConcurrency/LemonTaskView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/LemonConcurrency/LemonAsyncAwaitView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/LemonConcurrency/LemonActorView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/LemonConcurrency",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/JoidViewModel.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ex.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationStack.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationView.swift",
-    "Docs/MVVM.md",
-    "Docs/Class.md",
-    "Docs/MVVM.md",
-    "Docs/Class.md",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/Week2MiruTodoView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/Week2MiruCountView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/MiruCountView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/MiruTodoView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/MiruMVVMView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/Week1MVVMView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM/MVVMView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/Miru_MVVM",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2/New Folder",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week2",
-    "Templates/Template.md",
-    "Docs/속성 래퍼 (Property Wrapper).md",
-    "Docs/네비게이션(Navigation)/img/NavigationViewImg.png",
-    "Docs/네비게이션(Navigation)/NavigationView.md",
-    "Docs/네비게이션(Navigation)/NavigationStack.md",
-    "Docs/네비게이션(Navigation)/NavigationPath.md",
-    "Docs/네비게이션(Navigation)/NavigationLink.md",
-    "Docs/네비게이션(Navigation)/Navigation.md",
-    "Docs/Enumeration.md",
-    "Docs/@Environment.md",
-    "Value Type & Reference Type.md",
-    "Templates/try.md",
-    "Docs/클로저 (Closure).md",
-    "Docs/제네릭 (Generic).md",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
-  ]
+  "active": "c88bbc3b911926df",
+  "lastOpenFiles": []
 }

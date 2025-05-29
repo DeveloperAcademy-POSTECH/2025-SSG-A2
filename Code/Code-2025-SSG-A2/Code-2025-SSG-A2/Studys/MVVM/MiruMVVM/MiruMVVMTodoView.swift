@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct Week2MiruTodoView: View { // View
-    @StateObject var viewModel = Week2MiruTodoViewModel()
+struct MiruMVVMTodoView: View { // View
+    @StateObject var viewModel = MiruMVVMTodoViewModel()
     @State private var newTodoTitle = ""
 
     var body: some View {
@@ -44,21 +44,21 @@ struct Week2MiruTodoView: View { // View
     }
 }
 
-struct Week2MiruTodo: Identifiable { // Model
+struct MiruMVVMTodo: Identifiable { // Model
     let id = UUID()
     var title: String
     var isDone: Bool
 }
 
-class Week2MiruTodoViewModel: ObservableObject { // ViewModel
-    @Published var todos: [Week2MiruTodo] = []
+class MiruMVVMTodoViewModel: ObservableObject { // ViewModel
+    @Published var todos: [MiruMVVMTodo] = []
     
     func add(title: String) {
-        let todo = Week2MiruTodo(title: title, isDone: false)
+        let todo = MiruMVVMTodo(title: title, isDone: false)
         todos.append(todo)
     }
     
-    func toggleTodo(_ todo: Week2MiruTodo) {
+    func toggleTodo(_ todo: MiruMVVMTodo) {
         if let index = todos.firstIndex(where: { $0.id == todo.id }) {
             todos[index].isDone.toggle()
         }
@@ -67,5 +67,5 @@ class Week2MiruTodoViewModel: ObservableObject { // ViewModel
 }
 
 #Preview {
-    Week2MiruTodoView()
+    MiruMVVMTodoView()
 }

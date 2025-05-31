@@ -1,70 +1,41 @@
 {
   "main": {
-    "id": "c3d3f16d400db3e7",
+    "id": "dc280bb3ff0936d5",
     "type": "split",
     "children": [
       {
-        "id": "2f65e8b18a9d2c0b",
+        "id": "17ffa5a590a9368e",
         "type": "tabs",
         "children": [
           {
-            "id": "546d2eb7589db2db",
+            "id": "74c31b2277938b2d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Class.md",
+                "file": "Docs/서브스크립트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class"
-            }
-          },
-          {
-            "id": "4f823404096bb2f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs/네비게이션(Navigation)/NavigationLink.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NavigationLink"
-            }
-          },
-          {
-            "id": "12aab69b0650a2eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs/네비게이션(Navigation)/NavigationLink.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NavigationLink"
+              "title": "서브스크립트"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2dec2c0138c20b21",
+    "id": "c36180fdfa50987e",
     "type": "split",
     "children": [
       {
-        "id": "927ba43e53908967",
+        "id": "688eac51b69fdddf",
         "type": "tabs",
         "children": [
           {
-            "id": "2815668dfa8fbe87",
+            "id": "d520926004ecaf76",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -77,7 +48,7 @@
             }
           },
           {
-            "id": "c17fc565e4f47fcd",
+            "id": "fbc9b4707adb941b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -94,7 +65,7 @@
             }
           },
           {
-            "id": "458246d896ad2786",
+            "id": "564bb4d0f6a09c34",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -110,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "560a92d512dd20bd",
+    "id": "688ef772de2f3118",
     "type": "split",
     "children": [
       {
-        "id": "87fd6242090d1620",
+        "id": "8ae83ed5b77d388f",
         "type": "tabs",
         "children": [
           {
-            "id": "cf13f8285f39bea2",
+            "id": "bcc2a29a7e3e96db",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs/네비게이션(Navigation)/NavigationView.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "NavigationView 의 백링크"
+              "title": "백링크"
             }
           },
           {
-            "id": "d1206e21bd07d78d",
+            "id": "eb7f97bd85442e90",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs/네비게이션(Navigation)/NavigationView.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "NavigationView 의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
-            "id": "8888e0c9b2438a8c",
+            "id": "a544e71be0ff6baa",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -166,18 +135,17 @@
             }
           },
           {
-            "id": "c07d6b57f9937844",
+            "id": "5214c14ef701ca8a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/네비게이션(Navigation)/NavigationView.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "NavigationView 의 개요"
+              "title": "개요"
             }
           }
         ]
@@ -195,46 +163,47 @@
       "daily-notes:오늘의 일일 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
-      "obsidian-git:Open Git source control": true
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4f823404096bb2f0",
+  "active": "74c31b2277938b2d",
   "lastOpenFiles": [
-    "Docs/네비게이션(Navigation)/NavigationPath.md",
-    "Docs/네비게이션(Navigation)/NavigationStack.md",
-    "Docs/네비게이션(Navigation)/Navigation.md",
-    "Docs/네비게이션(Navigation)/NavigationView.md",
-    "Docs/네비게이션(Navigation)/NavigationLink.md",
-    "Docs/View.md",
-    "Docs/@Environment.md",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigation~.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationStack.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigation.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ex~.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ex.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ex.sift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/ViewDiscription.txt",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherNavigationExample.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Week1/TetherNavigation/TetherExampleView.swift",
-    "Docs/속성 래퍼 (Property Wrapper).md",
-    "Docs/Class.md",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.xcworkspace/xcuserdata/unkyungjo.xcuserdatad/UserInterfaceState.xcuserstate",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.xcworkspace/xcuserdata/unkyungjo.xcuserdatad",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.xcworkspace/xcuserdata",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/xcuserdata/unkyungjo.xcuserdatad/xcschemes/xcschememanagement.plist",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/xcuserdata/unkyungjo.xcuserdatad/xcschemes",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/xcuserdata/unkyungjo.xcuserdatad",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/xcuserdata",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/configuration",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.xcworkspace/xcshareddata/swiftpm",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.xcworkspace/xcshareddata",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+    "Docs/프로토콜과 인터페이스의 차이점.md",
     "Docs/프로토콜 지향 프로그래밍 (POP).md",
-    "Value Type & Reference Type.md",
-    "Templates/try.md",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Enumeration.md",
-    "2025-05-11.md",
-    "Docs/Swift.md",
-    "NavigationSplitView.md",
-    "Docs/네비게이션(Navigation)/img/NavigationViewImg.png",
+    "Docs/속성 래퍼 (Property Wrapper).md",
+    "Docs/ViewModel/@Published.md",
+    "Docs/ViewModel/ViewModel.md",
+    "Docs/View.md",
     "Docs/Value Type.md",
+    "Docs/Swift Standard Library.md",
     "Docs/Struct.md",
     "Docs/Enumeration.md",
-    "Docs/클로저 (Closure).md",
-    "Docs/제네릭 (Generic).md",
-    "Docs/정규식 DSL.md",
-    "Docs/옵셔널(Optionals).md",
-    "Docs/열거형 (Enumeration).md",
-    "Docs/병렬 처리(Swift-Concurrency).md"
+    "Docs/Class.md",
+    "Docs/@Environment.md",
+    "Docs/Extension.md",
+    "Docs/서브스크립트.md",
+    "Docs/Swift.md",
+    "Templates/Template.md",
+    "Docs/API/API.md",
+    "Docs/API/API 설명 이미지.png",
+    "Docs/NominalTypes/Protocol/프로토콜과 인터페이스의 차이점.md",
+    "Docs/NominalTypes/Protocol/프로토콜 지향 프로그래밍 (POP).md",
+    "Docs/PropertyWrapper/속성 래퍼 (Property Wrapper).md",
+    "Docs/PropertyWrapper/@Environment.md",
+    "Docs/NominalTypes/Protocol/View.md",
+    "Docs/NominalTypes/Struct.md",
+    "Docs/NominalTypes/Enumeration.md",
+    "Docs/NominalTypes/Class.md"
   ]
 }

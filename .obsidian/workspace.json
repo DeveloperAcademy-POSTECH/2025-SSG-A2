@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/Extension.md",
+                "file": "Docs/서브스크립트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Extension"
+              "title": "서브스크립트"
             }
           }
         ]
@@ -168,7 +168,17 @@
   },
   "active": "74c31b2277938b2d",
   "lastOpenFiles": [
+    "Docs/Extension.md",
     "Docs/서브스크립트.md",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/GyeongSubscript/GyeongSubscriptView~.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/GyeongSubscript/GyeongSubscriptView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/GyeongSubscript/GyeongSubscript.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/SubscriptNavView~.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/SubscriptNavView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/GyeongSubscript",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/New Folder",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/New Folder",
     "Value Type & Reference Type.md",
     "Docs/PropertyWrapper/속성 래퍼 (Property Wrapper).md",
     "Docs/PropertyWrapper/@Environment.md",
@@ -177,22 +187,13 @@
     "Docs/NominalTypes/Protocol/프로토콜 지향 프로그래밍 (POP).md",
     "Docs/NominalTypes/Protocol/View.md",
     "Docs/NominalTypes/Struct.md",
-    "Docs/NominalTypes/Protocol",
     "Docs/NominalTypes/Enumeration.md",
     "Docs/NominalTypes/Class.md",
-    "Docs/NominalTypes",
     "Docs/MVVM/ViewModel/ViewModel.md",
     "Docs/MVVM/ViewModel/@Published.md",
-    "Docs/MVVM/ViewModel",
     "Docs/MVVM/MVVM.md",
-    "Docs/MVVM",
     "Docs/API/API.md",
     "Docs/API/API 설명 이미지.png",
-    "Docs/API",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Navigation/TetherNavigation/ex.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Navigation/TetherNavigation/TetherNavigationView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Navigation/TetherNavigation/TetherNavigationStack.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Navigation/TetherNavigation/TetherNavigation.swift",
     "Docs/프로토콜과 인터페이스의 차이점.md",
     "Docs/프로토콜 지향 프로그래밍 (POP).md",
     "Docs/속성 래퍼 (Property Wrapper).md",
@@ -202,8 +203,6 @@
     "Docs/Value Type.md",
     "Docs/Swift Standard Library.md",
     "Docs/Struct.md",
-    "Docs/Enumeration.md",
-    "Docs/Class.md",
-    "Docs/@Environment.md"
+    "Docs/Enumeration.md"
   ]
 }

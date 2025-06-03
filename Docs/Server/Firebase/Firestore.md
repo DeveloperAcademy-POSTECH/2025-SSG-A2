@@ -14,14 +14,6 @@
 
 ![[datastore_price.png]]
 
-## 주요 기능
-+ 실제 활용을 작성
-
-## 코드 예시
-+ 실제 코드 예시를 작성
-
-## Keywords
-+ 파생된 키워드들을 작성
 
 ## References
 - [Firestore 공식문서](https://firebase.google.com/docs/firestore/pricing?hl=ko)

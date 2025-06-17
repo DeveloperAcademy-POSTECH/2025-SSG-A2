@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/서브스크립트.md",
+                "file": "Docs/TabView.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "서브스크립트"
+              "title": "TabView"
             }
           }
         ]
@@ -168,23 +168,26 @@
   },
   "active": "74c31b2277938b2d",
   "lastOpenFiles": [
-    "Docs/Extension.md",
+    "Docs/NominalTypes/Protocol/프로토콜 지향 프로그래밍 (POP).md",
+    "Docs/TabView.md",
     "Docs/서브스크립트.md",
+    "Docs/Extension.md",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/TabView/GyeongTabView/GyeongTabSectionView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/TabView/GyeongTabView/GyeongTabviewSelectionView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/TabView/GyeongTabView/GyeongTabviewExampleView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/TabView/TabViewNavView.swift",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/TabView/GyeongTabView",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/TabView/New Folder",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/TabView",
+    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/New Folder",
+    "Pasted image 20250617024054.png",
+    "Templates/Template.md",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/GyeongSubscript/GyeongSubscriptView~.swift",
     "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/GyeongSubscript/GyeongSubscriptView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/GyeongSubscript/GyeongSubscript.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/SubscriptNavView~.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/SubscriptNavView.swift",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/GyeongSubscript",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript/New Folder",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/Subscript",
-    "Code/Code-2025-SSG-A2/Code-2025-SSG-A2/Studys/New Folder",
     "Value Type & Reference Type.md",
     "Docs/PropertyWrapper/속성 래퍼 (Property Wrapper).md",
     "Docs/PropertyWrapper/@Environment.md",
-    "Docs/PropertyWrapper",
     "Docs/NominalTypes/Protocol/프로토콜과 인터페이스의 차이점.md",
-    "Docs/NominalTypes/Protocol/프로토콜 지향 프로그래밍 (POP).md",
     "Docs/NominalTypes/Protocol/View.md",
     "Docs/NominalTypes/Struct.md",
     "Docs/NominalTypes/Enumeration.md",
@@ -201,8 +204,6 @@
     "Docs/ViewModel/@Published.md",
     "Docs/View.md",
     "Docs/Value Type.md",
-    "Docs/Swift Standard Library.md",
-    "Docs/Struct.md",
-    "Docs/Enumeration.md"
+    "Docs/Swift Standard Library.md"
   ]
 }

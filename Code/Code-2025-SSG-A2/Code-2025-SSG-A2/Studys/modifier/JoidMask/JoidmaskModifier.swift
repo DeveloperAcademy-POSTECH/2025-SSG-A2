@@ -20,6 +20,7 @@ struct JoidmaskModifier: View {
 
                 Text("JOID")
                     .font(.system(size: 64, weight: .bold))
+                //이건 그냥 에쁘게 하는거
                     .foregroundStyle(
                         LinearGradient(colors: [.blue, .purple], startPoint: .leading, endPoint: .trailing)
                     )
@@ -33,6 +34,7 @@ struct JoidmaskModifier: View {
             }
 
             Rectangle()
+            //이거도 그냥 예쁘게 하는거
                 .fill(LinearGradient(colors: [.green, .yellow], startPoint: .leading, endPoint: .trailing))
                 .frame(width: 300 * rectProgress, height: 30)
                 .frame(width: 300, alignment: .leading)

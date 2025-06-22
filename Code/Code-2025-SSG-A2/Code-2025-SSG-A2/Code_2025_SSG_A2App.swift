@@ -11,7 +11,7 @@ import SwiftUI
 struct Code_2025_SSG_A2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            JoidmaskModifier()
         }
     }
 }

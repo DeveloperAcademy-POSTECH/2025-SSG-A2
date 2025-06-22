@@ -8,6 +8,8 @@ struct NavNavView: View {
                 NavigationLink("TetherNavigationCompareView", destination: TetherNavigationCompareView())
                 Text("Gyeong")
                 NavigationLink("GyeongTabviewExampleView", destination: GyeongTabviewExampleView())
+                NavigationLink("GyeongTabSectionView", destination: GyeongTabSectionView())
+                NavigationLink("GyeongTabviewSelectionView", destination: GyeongTabviewSelectionView())
             }
             .navigationTitle("Navigation")
         }

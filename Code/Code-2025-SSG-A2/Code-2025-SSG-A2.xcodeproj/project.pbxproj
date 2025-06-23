@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		32145B632DD61B2E002C5A38 /* Code-2025-SSG-A2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code-2025-SSG-A2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32145B632DD61B2E002C5A38 /* Code-2025-SSG-A2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Code-2025-SSG-A2.app"; path = "/Users/sandeul/Desktop/2025-SSG-A2/Code/Code-2025-SSG-A2/build/Debug/Code-2025-SSG-A2.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,16 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				32145B652DD61B2E002C5A38 /* Code-2025-SSG-A2 */,
-				32145B642DD61B2E002C5A38 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		32145B642DD61B2E002C5A38 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				32145B632DD61B2E002C5A38 /* Code-2025-SSG-A2.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +86,7 @@
 			mainGroup = 32145B5A2DD61B2E002C5A38;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 32145B642DD61B2E002C5A38 /* Products */;
+			productRefGroup = 32145B5A2DD61B2E002C5A38;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

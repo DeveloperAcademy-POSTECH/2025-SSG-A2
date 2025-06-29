@@ -9,6 +9,12 @@
     - Volumes: 3D공간의 일부
     - Space: 3D공간 전체
 
+| **공간 개념**           | **SwiftUI에서 사용하는 방식**                                     | **설명**                                   |
+| ------------------- | --------------------------------------------------------- | ---------------------------------------- |
+| **Window**          | WindowGroup { ... }                                       | 2D UI를 floating window 형태로 띄움 (전통적 앱 느낌) |
+| **Volume**          | VolumeView { ... } 또는 WindowGroup(…) { VolumeView { … } } | 3D 공간 안에 상호작용 가능한 오브젝트(뷰)를 배치            |
+| **Immersive Space** | ImmersiveSpace(id: …) + .immersiveSpace(…)                | 완전히 몰입된 공간, 사용자가 ‘들어가는’ 3D 세계            |
+
 
 <div align="center">
 	<img src="Scene.png" width="50%">

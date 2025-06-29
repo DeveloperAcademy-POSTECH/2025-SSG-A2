@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		32145B632DD61B2E002C5A38 /* Code-2025-SSG-A2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Code-2025-SSG-A2.app"; path = "/Users/sandeul/Desktop/2025-SSG-A2/Code/Code-2025-SSG-A2/build/Debug/Code-2025-SSG-A2.app"; sourceTree = "<absolute>"; };
+		0DF7774D2E11674D0052B32C /* Code-2025-SSG-A2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code-2025-SSG-A2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				32145B652DD61B2E002C5A38 /* Code-2025-SSG-A2 */,
+				0DF7774D2E11674D0052B32C /* Code-2025-SSG-A2.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +59,7 @@
 			packageProductDependencies = (
 			);
 			productName = "Code-2025-SSG-A2";
-			productReference = 32145B632DD61B2E002C5A38 /* Code-2025-SSG-A2.app */;
+			productReference = 0DF7774D2E11674D0052B32C /* Code-2025-SSG-A2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */

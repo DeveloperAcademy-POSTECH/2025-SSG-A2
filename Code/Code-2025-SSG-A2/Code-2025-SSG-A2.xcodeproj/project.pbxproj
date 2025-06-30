@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		32145B632DD61B2E002C5A38 /* Code-2025-SSG-A2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Code-2025-SSG-A2.app"; path = "/Users/sandeul/Desktop/2025-SSG-A2/Code/Code-2025-SSG-A2/build/Debug/Code-2025-SSG-A2.app"; sourceTree = "<absolute>"; };
+		325F12C12E10288600942B92 /* Code-2025-SSG-A2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Code-2025-SSG-A2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				32145B652DD61B2E002C5A38 /* Code-2025-SSG-A2 */,
+				325F12C12E10288600942B92 /* Code-2025-SSG-A2.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +59,7 @@
 			packageProductDependencies = (
 			);
 			productName = "Code-2025-SSG-A2";
-			productReference = 32145B632DD61B2E002C5A38 /* Code-2025-SSG-A2.app */;
+			productReference = 325F12C12E10288600942B92 /* Code-2025-SSG-A2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -236,6 +237,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Code-2025-SSG-A2/Code_2025_SSG_A2.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Code-2025-SSG-A2/Preview Content\"";
@@ -275,6 +277,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Code-2025-SSG-A2/Code_2025_SSG_A2.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Code-2025-SSG-A2/Preview Content\"";

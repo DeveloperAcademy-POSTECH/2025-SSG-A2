@@ -8,7 +8,7 @@
 
 ## 주요 기능
 + 사용자가 이동, 회전, 고정, 크기 조절이 가능.
-+ 개발자가 창의 위치, 각도
++ 개발자가 창의 위치, 각도는 지정하지 못한다.
 
 ## 코드 예시
 ```swift
@@ -23,9 +23,6 @@ struct MyApp: App {
 }
 ```
 
-## Keywords
-+ 파생된 키워드들을 작성
 
 ## References
 - [Apple WindowGroup 공식 문서](https://developer.apple.com/documentation/swiftui/windowgroup?utm_source=chatgpt.com)
-- 

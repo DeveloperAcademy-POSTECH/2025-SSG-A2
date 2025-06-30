@@ -3,7 +3,7 @@
 >GQ2. GeometryReader는 어떻게 사용하고 어디에 사용될까?
 
 ## GeometryReader
-- GeometryReadersms SwiftUI에서 제공하는 뷰 중 하나로, 부모 뷰가 자식 뷰에 대한 크기와 위치를 결정하는 방법을 제어할 수 있다.
+- GeometryReader는 SwiftUI에서 제공하는 뷰 중 하나로, 부모 뷰가 자식 뷰에 대한 크기와 위치를 결정하는 방법을 제어할 수 있다.
 - 자식 뷰의 위치, 크기 및 방향을 결정하는데 사용된다. 
 ```swift
 GeometryReader { geometry in 

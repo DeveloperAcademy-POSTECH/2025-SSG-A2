@@ -20,7 +20,7 @@ struct GyeongGeometryProxyView: View {
                 .foregroundColor(.blue)
                 .frame(width: geometry.size.width / 4, height: geometry.size.width / 4)
                 .position(x: geometry.safeAreaInsets.leading + geometry.size.width / 8,
-                          y: geometry.safeAreaInsets.top  + geometry.size.width / 8)
+                          y: geometry.safeAreaInsets.top + geometry.size.width / 8)
         }
     }
 }

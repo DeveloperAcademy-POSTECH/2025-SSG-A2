@@ -7,7 +7,7 @@ State Management(상태 관리)는 뷰의 UI를 데이터의 상태에 따라 �
 뷰는 상태(State)에 따라 그려지고, 상태가 바뀌면 자동으로 다시 그려진다.
 
 SwiftUI에서 State Management는 Property Wrapper로 할 수 있다.
-[[@State]], [[@Binding]], [[@Observable]], [[@StateObject]], [[@ObservedObject]], [[@EnvironmentObejct]]로 나뉘어진다.
+[[@State]], [[@Binding]], [[@Observable]],  [[@Bindable]][[@StateObject]], [[@ObservedObject]], [[@EnvironmentObejct]]로 나뉘어진다.
 
 간단한 State Management는 [[@State]], [[@Binding]]로 가능하다.
 복잡한 모델의 State Management는 [[@Observable]], [[@StateObject]], [[@ObservedObject]]를 사용한다.
@@ -20,6 +20,7 @@ SwiftUI에서 State Management는 Property Wrapper로 할 수 있다.
 - [[@State]]
 - [[@Binding]]
 - [[@Observable]]
+- [[@Bindable]]
 - [[@StateObject]]
 - [[@ObservedObject]]
 - [[@EnvironmentObejct]]

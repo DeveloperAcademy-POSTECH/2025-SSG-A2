@@ -1,0 +1,39 @@
+{
+  "pathsToIds" : {
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/FishView.usda" : "DD5C69ED-7F7A-426C-AA4A-6F8E05E693DD",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "440DE5B4-E4E4-459B-AABF-9ACE96319272",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/StarfishView.usda" : "2DEB38C6-A5D0-40FA-A2CC-C96BCBD4310C",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled Scene.usda" : "03E02005-EFA6-48D6-8A76-05B2822A74E9",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/procedural_sphere_grid.usda" : "34C460AE-CA1B-4348-BD05-621ACBDFFE97",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/slugView.usda" : "42C69055-0113-4D24-8948-CD224E3B1279",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/ClamView.usda" : "936683EA-C375-4130-9FCF-4C6B34C9BE25",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/FishView.usda" : "ADBD9D9B-683A-41FE-9FE8-7DBF29A6C33F",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "FBD8436F-6B8B-4B82-99B5-995D538B4704",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "26DBAE76-5DD8-47B6-A085-1B4ADA111097",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SeaCreature\/ClamView.usda" : "0F1C8949-C6FC-4575-B0E5-D9EB5AFD88C0",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SeaCreature\/FishView.usda" : "5022325E-F039-41B1-932C-D53812614A73",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SeaCreature\/StarfishView.usda" : "633C561B-6285-486E-8A2F-D344AC93A39F",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SeaCreature\/slugView.usda" : "50989EDA-AE01-41C1-9648-B4095587B1D4",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/SlugView.usda" : "B996612F-B721-435C-A5BF-964F74FF2220",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/StarfishView.usda" : "9A3D1725-6076-4B4D-BDAD-12E85CE3E896",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/procedural_sphere_grid.usda" : "1CBF3893-ABFD-408C-8B91-045BFD257808",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/slugView.usda" : "9AB42474-9CDF-417B-9B03-455438B7B44B"
+  },
+  "projectID" : 349770229570550046,
+  "uuidToIntID" : {
+    "0F1C8949-C6FC-4575-B0E5-D9EB5AFD88C0" : 8050692891510519866,
+    "26DBAE76-5DD8-47B6-A085-1B4ADA111097" : -1687169516633254527,
+    "2DEB38C6-A5D0-40FA-A2CC-C96BCBD4310C" : -3309762035712845105,
+    "42C69055-0113-4D24-8948-CD224E3B1279" : -2872519615242966276,
+    "5022325E-F039-41B1-932C-D53812614A73" : 1732433007306095687,
+    "50989EDA-AE01-41C1-9648-B4095587B1D4" : -219886412132470441,
+    "633C561B-6285-486E-8A2F-D344AC93A39F" : 3740687643498074257,
+    "936683EA-C375-4130-9FCF-4C6B34C9BE25" : -7942172118542719917,
+    "9A3D1725-6076-4B4D-BDAD-12E85CE3E896" : 5732771780810668514,
+    "9AB42474-9CDF-417B-9B03-455438B7B44B" : -1123670777671314050,
+    "ADBD9D9B-683A-41FE-9FE8-7DBF29A6C33F" : -9138023696022307332,
+    "B996612F-B721-435C-A5BF-964F74FF2220" : -8253595112846622716,
+    "DD5C69ED-7F7A-426C-AA4A-6F8E05E693DD" : -4759358061183928642
+  }
+}

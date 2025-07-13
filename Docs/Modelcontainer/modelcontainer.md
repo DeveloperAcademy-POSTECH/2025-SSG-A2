@@ -43,7 +43,7 @@ SwiftData는 `Schema`, `ModelContainer`, `ModelContext` 세 요소의 유기
 
 `ModelContainer`를 설정하는 방법은 크게 두 가지입니다.
 
-1. **선언적 방식 (간편한 설정):** SwiftUI에서는 **`.modelContainer`** 수식어를 사용합니다. 앱의 최상위 뷰에 적용하면 지정된 모델의 컨테이너를 생성하고, `mainContext`를 뷰 전체에서 사용할 수 있도록 `Environment`에 자동으로 넣어줍니다. `@Query`가 작동하는 이유가 바로 이것 때문입니다.
+1. **선언적 방식 (딸깍):** SwiftUI에서는 **`.modelContainer`** 수식어를 사용합니다. 앱의 최상위 뷰에 적용하면 지정된 모델의 컨테이너를 생성하고, `mainContext`를 뷰 전체에서 사용할 수 있도록 `Environment`에 자동으로 넣어줍니다. `@Query`가 작동하는 이유가 바로 이것 때문입니다.
 
  ```Swift
   // 단일 모델
@@ -55,7 +55,7 @@ SwiftData는 `Schema`, `ModelContainer`, `ModelContext` 세 요소의 유기
 
 > **💡 관계 추론 (Relationship Inference):** 모델 간에 관계가 설정되어 있다면, 최상위 모델 하나만 등록해도 SwiftData가 연결된 모든 모델을 알아서 스키마에 포함시켜 줍니다.
 
-2. **프로그래밍 방식 (정교한 제어):** 더 복잡한 설정(예: 여러 저장소 구성)이 필요할 때 사용합니다. `try ModelContainer(...)`를 직접 호출하여 컨테이너 인스턴스를 생성한 후, 이 인스턴스를 `.modelContainer()` 수식어에 전달합니다.
+2. **프로그래밍 방식 (해야만 한다;;):** 더 복잡한 설정(예: 여러 저장소 구성)이 필요할 때 사용합니다. `try ModelContainer(...)`를 직접 호출하여 컨테이너 인스턴스를 생성한 후, 이 인스턴스를 `.modelContainer()` 수식어에 전달합니다.
 
   ```Swift
    // 1. ModelContainer 인스턴스를 직접 생성
@@ -66,36 +66,6 @@ SwiftData는 `Schema`, `ModelContainer`, `ModelContext` 세 요소의 유기
    ```
 
 ---
-
-### `ModelContext`와 데이터 관리 🤝
-
-`ModelContainer`가 설계도라면, `ModelContext`는 실제 작업대입니다.
-
-- **접근 방법:** SwiftUI에서는 **`@Environment(\.modelContext)`** 프로퍼티 래퍼를 사용해 `mainContext`에 쉽게 접근할 수 있습니다.
-    
-- **데이터 작업 (CRUD):**
-    
-    - **Create:** `context.insert(새로운객체)`
-        
-    - **Read:** SwiftUI 뷰에서는 `@Query` 사용이 가장 일반적입니다.
-        
-    - **Update:** 모델 객체의 프로퍼티를 직접 수정하면 `ModelContext`가 변경을 자동으로 추적합니다. (별도 `update`메서드 불필요)
-        
-    - **Delete:** `context.delete(삭제할객체)`
-        
-- **저장과 롤백:**
-    
-    - **자동 저장 (Autosave):** `mainContext`는 기본적으로 변경사항을 자동으로 저장하지만, 저장 시점이 명확하지 않아 데이터 유실의 위험이 있습니다.
-        
-    - **수동 저장 (권장):** 중요한 데이터 변경 후에는 **`try context.save()`**를 명시적으로 호출하여 즉시 디스크에 쓰는 것이 훨씬 안전하고 예측 가능합니다.
-        
-    - **롤백 (Rollback):** `context.rollback()`을 호출하면 마지막 저장 이후의 모든 변경사항을 취소할 수 있습니다.
-        
-- **실행 취소 (Undo):** `.modelContainer(for: ..., isUndoEnabled: true)` 옵션 하나만으로 `UndoManager`가 활성화되어 '흔들어서 실행 취소' 같은 시스템 기능을 쉽게 연동할 수 있습니다.
-    
-
----
-
 ### 스키마 변경과 데이터 마이그레이션
 
 앱이 업데이트되면서 데이터 모델이 변경될 때(스키마가 변경될 때) 기존 데이터를 보존하는 과정입니다. `ModelContainer`가 이 과정을 관리합니다.
@@ -254,5 +224,6 @@ struct YourApp: App {
 ```
 
 이제 앱을 실행하면 SwiftData는 저장된 데이터의 버전과 현재 앱의 모델 버전을 비교합니다. 버전이 다를 경우, `MigrationPlan`에 정의된 계획에 따라 자동으로 데이터를 새로운 스키마에 맞게 이전해 줍니다.
+
 ​Keywords
 - [[modelcontainer]]

@@ -125,7 +125,8 @@ struct ContentView: View {
 ```
 
 ## Keywords
-+ 파생된 키워드들을 작성
++ SwiftData
++ [[AppStorage]]
 
 ## References
 - [블로그1](https://co-dong.tistory.com/65)

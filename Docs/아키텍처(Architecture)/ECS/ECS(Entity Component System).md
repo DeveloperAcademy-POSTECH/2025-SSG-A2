@@ -40,7 +40,7 @@ rootEntity.addChild(childEntity)    // 자식 엔티티 추가
 ```
 
 ## Keywords
-+ [Entity]
++ [[Entity]]
 + [Component]
 + [System]
 

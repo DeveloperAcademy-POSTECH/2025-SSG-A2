@@ -1,0 +1,22 @@
+#usda 1.0
+(
+    defaultPrim = "fish"
+)
+
+def "fish" (
+    active = true
+    prepend references = @SeaCreature/fish.usdz@
+)
+{
+    float3 xformOp:scale = (20, 20, 20)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+    over "fish"
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (5, 5, 5)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+}
+

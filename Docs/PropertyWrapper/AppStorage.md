@@ -44,7 +44,7 @@ init(
 
 ## Keywords
 + AppStorage
-+ UserDefault
++ [[UserDefaults]]
 
 ## References
 - [블로그](https://green1229.tistory.com/454)

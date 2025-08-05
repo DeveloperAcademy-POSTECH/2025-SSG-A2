@@ -12,7 +12,7 @@
 ## 특징
 - (데이터(value), 키(key))로 데이터에 저장
 	- 키(key)의 값은 String
-	- 데이터(valye)는 모든 객체 가능(Bool, Int, Float, Double, String 등)
+	- 데이터(value)는 모든 객체 가능(Bool, Int, Float, Double, String 등)
 - 앱이 설치되면 앱이 실행되는 시점에 데이터를 저장할 수 있는 기본 데이터베이스가 생성된다.
 - Property List 기반으로 .plist 확장자 파일에 xml 형식으로 Sandbox 내부에 저장된다.
 - UserDefaults에 저장된 데이터는 앱이 종료되더라도 사라지지 않고, 영구적으로 저장된다.
